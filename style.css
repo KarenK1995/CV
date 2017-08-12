@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+header h1{
+    font-size: 50px;
+    text-shadow: 2px 0 5px  #fff;
+
+}
+
+.wrapper-itunes{
+    width: 200px;
+    height: auto;
+}
+
+.wrapper-itunes img{
+    width: 100%;
+}
+
+
+/*main section*/
+.info{
+    display: flex;
+    justify-content: center;
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.experience h3{
+    margin: 0;
+}
+.experience div{
+    display: flex;
+    flex-direction: column;
+
+}
+.zenta {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+.hi-teck{
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
